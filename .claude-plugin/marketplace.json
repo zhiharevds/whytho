@@ -1,0 +1,13 @@
+{
+  "name": "whytho",
+  "owner": {
+    "name": "zhiharevds"
+  },
+  "plugins": [
+    {
+      "name": "whytho",
+      "source": ".",
+      "description": "Architecture decision journal enforced by hooks (SessionStart + PreToolUse + Stop)."
+    }
+  ]
+}

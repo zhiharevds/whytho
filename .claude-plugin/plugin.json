@@ -1,0 +1,13 @@
+{
+  "name": "whytho",
+  "version": "1.0.0",
+  "description": "but why, though? — an architecture decision journal enforced by hooks. Catches silently reverted and never-recorded decisions: PreToolUse injects the \"why\" when you edit a file under a decision; Stop won't let the turn end if code under a decision changed but the journal wasn't touched; SessionStart puts the rule into context. No machine-specific paths.",
+  "author": {
+    "name": "zhiharevds",
+    "url": "https://github.com/zhiharevds"
+  },
+  "homepage": "https://github.com/zhiharevds/whytho",
+  "repository": "https://github.com/zhiharevds/whytho",
+  "license": "MIT",
+  "keywords": ["decisions", "adr", "decision-log", "journal", "hooks", "governance"]
+}
