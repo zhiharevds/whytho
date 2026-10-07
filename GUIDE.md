@@ -89,6 +89,13 @@ so `active · supersedes D-NN` stays in force.
 `… (D-04)`. Then `git log --grep D-04` collects every commit for that decision, and there's
 no need to keep hashes in the journal.
 
+**ID in a message to a person:** never bare. The ID is useful to `git log` and to the hooks,
+not to a reader. When the model mentions a decision in chat, in a report or in a reply to a
+hook, it writes a clickable link to the entry's line in the journal and one phrase with the
+gist: `[D-04](docs/decisions.md#L21), the API is versioned by URL path`. The reader then
+either understands at once or gets to the entry in one click, without opening the file and
+searching for the number.
+
 ## 5. When to add an entry
 
 - **A new decision** comes out of a brainstorm or spec. It goes into the journal as a step
